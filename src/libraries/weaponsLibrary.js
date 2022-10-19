@@ -1,34 +1,17 @@
-class Swords {
-  constructor(id, type, name, size, damage, grade, value, weight)
+class Weapon {
+  constructor(id, type, name, size, damage, grade, value, weight) {
+    this.id = id;
+    this.type = type;
+    this.name = name;
+    this.size = size;
+    this.damage = damage;
+    this.grade = grade;
+    this.value = value;
+    this.weight = weight;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let testWeapon = new Weapon();
 
 /* - Weapon Grade System -
 
@@ -61,32 +44,29 @@ class Swords {
 */
 
 // - Large Weapons Only - //
-class LargeWeapons{
+class LargeWeapons {
   constructor() {
-    this.weapons = []
+    this.weapons = [];
   }
 }
 
 // - Medium Weapons Only - //
-class MediumWeapons{
+class MediumWeapons {
   constructor() {
-    this.weapons = []
+    this.weapons = [];
   }
 }
 
 // - Small Weapons Only - //
-class SmallWeapons{
+class SmallWeapons {
   constructor() {
-    this.weapons = []
+    this.weapons = [];
   }
 }
 
 // - Tiny Weapons Only - //
-class TinyWeapons{
+class TinyWeapons {
   constructor() {
-    this.weapons = []
+    this.weapons = [];
   }
 }
-
-
-  
