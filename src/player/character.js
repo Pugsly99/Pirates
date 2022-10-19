@@ -5,6 +5,7 @@ export default class PlayerPirate {
     this.characterClass = selectedClass;
 
     this.currentLocation;
+    this.reputation;
 
     this.health;
     this.hunger;
