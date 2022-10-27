@@ -43,28 +43,44 @@ let testWeapon = new Weapon();
   
 */
 
-// - Large Weapons Only - //
+/* --- Functions --- */
+
+// Large Weapon Generate //
+function generateLargeWeapon() {}
+
+// Medium Weapon Generate //
+function generateMediumWeapon() {}
+
+// Small Weapons Generate //
+function generateSmallWeapon() {}
+
+// Tiny Weapons Generate //
+function generateTinyWeapon() {}
+
+/* --- Weapon Arrays --- */
+
+// Large Weapons Only //
 class LargeWeapons {
   constructor() {
     this.weapons = [];
   }
 }
 
-// - Medium Weapons Only - //
+// Medium Weapons Only //
 class MediumWeapons {
   constructor() {
     this.weapons = [];
   }
 }
 
-// - Small Weapons Only - //
+// Small Weapons Only //
 class SmallWeapons {
   constructor() {
     this.weapons = [];
   }
 }
 
-// - Tiny Weapons Only - //
+// Tiny Weapons Only //
 class TinyWeapons {
   constructor() {
     this.weapons = [];
